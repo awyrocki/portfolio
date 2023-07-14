@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3em;
+    padding-right: 2em;
+
+}
+a {
+    text-decoration: none;
+    color: #2f3542;
+}
+
+a:hover {
+    color: #a4b0be;
+}
+
+nav a::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 0;
+    background-color: #a4b0be;
+    position: absolute;
+    transition: all ease-in-out 300ms;
+}
+
+nav a:hover::after {
+    width: 1em;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
