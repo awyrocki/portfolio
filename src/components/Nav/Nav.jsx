@@ -6,7 +6,7 @@ function Nav() {
     <>
     <div id='main-container'>
     <div>
-        
+{/* add a home icon here */}
     </div>
     <nav>
         <ul>

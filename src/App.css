@@ -1,3 +1,6 @@
 body {
     background-color: #747d8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

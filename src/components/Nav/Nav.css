@@ -34,4 +34,11 @@ nav a:hover::after {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+@media (max-width: 750px) {
+    #main-container {
+        justify-content: center;
+    }
 }
