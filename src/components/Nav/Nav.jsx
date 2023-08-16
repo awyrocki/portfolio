@@ -10,9 +10,8 @@ function Nav() {
     </div>
     <nav>
         <ul>
-            <li><a href='http://localhost:3000/About'>About</a></li>
-            <li><a href='http://localhost:3000/Work'>Work</a></li>
-            <li><a href='http://localhost:3000/contact'>Contact</a></li>
+            <li><a href='http://localhost:3000/Experience'>Experience</a></li>
+            <li><a href='http://localhost:3000/Projects'>Projects</a></li>
         </ul>
     </nav>
     </div>
