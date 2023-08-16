@@ -3,6 +3,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     gap: 3em;
     padding-right: 2em;
 
@@ -13,7 +14,7 @@ a {
 }
 
 a:hover {
-    color: #a4b0be;
+    color: white;
 }
 
 nav a::after {
@@ -21,7 +22,7 @@ nav a::after {
     display: block;
     height: 5px;
     width: 0;
-    background-color: #a4b0be;
+    background-color: white;
     position: absolute;
     transition: all ease-in-out 300ms;
 }
@@ -34,6 +35,7 @@ nav a:hover::after {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 1em;
 }
 
@@ -41,4 +43,17 @@ nav a:hover::after {
     #main-container {
         justify-content: center;
     }
+}
+
+#mui-icon {
+    transform: scale(1.8);
+}
+
+#home-icon {
+    transform: scale(1.8);
+    margin-left: 0.5em;
+}
+
+#mui-icon:hover, #home-icon:hover, #lightdark-icon:hover {
+    color: white;
 }
