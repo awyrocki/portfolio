@@ -8,13 +8,14 @@ ul {
     padding-right: 2em;
 
 }
+
 a {
     text-decoration: none;
-    color: #2f3542;
+    color: #e0e0e0;
 }
 
 a:hover {
-    color: white;
+    color: #1f94ca;
 }
 
 nav a::after {
@@ -22,7 +23,7 @@ nav a::after {
     display: block;
     height: 5px;
     width: 0;
-    background-color: white;
+    background-color: #1f94ca;
     position: absolute;
     transition: all ease-in-out 300ms;
 }
@@ -55,5 +56,5 @@ nav a:hover::after {
 }
 
 #mui-icon:hover, #home-icon:hover, #lightdark-icon:hover {
-    color: white;
+    color: #1f94ca;
 }
