@@ -15,7 +15,7 @@ function Nav() {
         <IconButton href='http://localhost:3000'>
             <FontDownloadIcon
             id='home-icon'
-            sx={{color: "#e0e0e0"}}
+            sx={{color: "#e0e0e0", display:{xs:"none", sm:"block"}}}
             ></FontDownloadIcon>
         </IconButton>
     </div>

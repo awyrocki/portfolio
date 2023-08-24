@@ -35,6 +35,8 @@ span {
 
 h {
     border: 1px solid #2f3542;
+    width: 95%;
+    
 }
 
 #experience-container {
@@ -44,15 +46,6 @@ h {
     align-items: center;
     margin-top: 2em;
     height: 20em;
-}
-
-#job1-dates {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 10em;
-    width: 10em;
 }
 
 #job1-container {
@@ -69,11 +62,19 @@ h {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2px;
 }
 
 #date {
     font-size: 18px;
     text-decoration: underline;
+}
+
+#experience-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 750px) {

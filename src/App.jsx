@@ -12,11 +12,6 @@ import darkBackground from "./dark.svg"
 function App() {
   return (
     <>
-      <div id='background-div' 
-        style={{backgroundImage: `url(${darkBackground})`,
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover'
-      }}>
       <Router>
       <Nav />
       <Routes>
@@ -26,7 +21,6 @@ function App() {
         <Route path='/Projects' element={ <Projects /> } />
       </Routes>
       </Router>
-      </div>
     </>
   );
 }

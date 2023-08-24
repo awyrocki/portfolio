@@ -7,6 +7,7 @@ import Stack from '@mui/material/Stack';
 function Experience() {
   return (
     <>
+    <div id='experience-tab'>
     <div id='about-div'>
       <img id='about-img' src={brox} alt="" />
       <div id='bio-div'>
@@ -38,6 +39,7 @@ function Experience() {
             </div>
           </div>
         </div>
+        <h></h>
         <div id='job1-container'>
           <div id='job1-description'>
             <div id='job-title'>
@@ -55,6 +57,7 @@ function Experience() {
             </div>
           </div>
         </div>
+        <h></h>
         <div id='job1-container'>
           <div id='job1-description'>
             <div id='job-title'>
@@ -71,6 +74,7 @@ function Experience() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </>
   )
