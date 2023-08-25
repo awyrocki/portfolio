@@ -1,8 +1,9 @@
 import React from 'react';
 import brox from "./brox.png";
 import "./Experience.css";
-import Chip from '@mui/material/Chip';
-import Stack from '@mui/material/Stack';
+import Upright from '../Upright/Upright';
+import AH from '../AH/AH';
+import RAN from '../RAN/RAN';
 
 function Experience() {
   return (
@@ -18,62 +19,9 @@ function Experience() {
       </div>
     </div>
     <div id='experience-container'>
-        <div id='job1-container'>
-          <div id='job1-description'>
-            <div id='job-title'>
-            <span id='date'>May 2023-Present | Upright Education, Software Engineer</span>
-            </div>
-            <div id='job1-role'>
-            <span>Mutiple projects of varying complexity. Four-week group capstone project developing scalable & responsive application for client. </span>
-            </div>
-            <div id='job1-skills'>
-              <Stack sx={{mt: 1}} direction="row" spacing={1}>
-                <Chip color="warning" label="JavaScript" variant="outlined" />
-                <Chip color="warning" label="MongoDB" variant="outlined" />
-                <Chip color="warning" label="Mongoose ODM" variant="outlined" />
-                <Chip color="warning" label="Express js" variant="outlined" />
-                <Chip color="warning" label="React" variant="outlined" />
-                <Chip color="warning" label="Node js" variant="outlined" />
-                <Chip color="warning" label="PostgreSQL" variant="outlined" />
-              </Stack>
-            </div>
-          </div>
-        </div>
-        <h></h>
-        <div id='job1-container'>
-          <div id='job1-description'>
-            <div id='job-title'>
-            <span id='date'>Sep 2021-May 2023 | Autumn Harp, Formulation Chemist</span>
-            </div>
-            <div id='job1-role'>
-            <span>Utilized customer feedback to develop, refine, troubleshoot and deploy personal care products for market, all while adhering to practical budget and timeline</span>
-            </div>
-            <div id='job1-skills'>
-              <Stack sx={{mt: 1}} direction="row" spacing={1}>
-                <Chip color="warning" label="Project Management" variant="outlined" />
-                <Chip color="warning" label="Scrum Methodology" variant="outlined" />
-                <Chip color="warning" label="Experimental Design" variant="outlined" />
-              </Stack>
-            </div>
-          </div>
-        </div>
-        <h></h>
-        <div id='job1-container'>
-          <div id='job1-description'>
-            <div id='job-title'>
-            <span id='date'>May 2021-Sep 2021 | RAN Biotechnolgoies, Chemist</span>
-            </div>
-            <div id='job1-role'>
-            <span>Lead chemist in charge of manufacturing, researching, and developing fluorosurfactants. Teamed with in-house biologists to enhance functionality and performance. Provided guidance and direction to lab technicians to foster collaborative and productive environment.</span>
-            </div>
-            <div id='job1-skills'>
-              <Stack sx={{mt: 1}} direction="row" spacing={1}>
-                <Chip color="warning" label="Problem Solving" variant="outlined" />
-                <Chip color="warning" label="Research & Development" variant="outlined" />
-              </Stack>
-            </div>
-          </div>
-        </div>
+        <Upright />
+        <AH />
+        <RAN />
       </div>
       </div>
     </>

@@ -92,6 +92,20 @@ h {
         padding-top: 1em;
         width: 90vw;
     }
+
+    #date {
+        font-size: 12px;
+    }
+
+    #job1-description {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    #job-skills {
+        width: 90vw;
+    }
 }
 
 @media (min-width: 1301px) {
