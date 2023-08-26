@@ -1,6 +1,3 @@
-span {
-    color: #e0e0e0;
-}
 #about-img {
     border-radius: 50%;
     width: 100%;
@@ -9,9 +6,11 @@ span {
     box-shadow: 0px 3px 10px 3px #14171b;
 }
 
-#about-bio {
-    font-size: 12px;
-    text-align: justify;
+#experience-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #about-div {
@@ -23,58 +22,12 @@ span {
     color: #e0e0e0;
 }
 
-#bio-div {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5em;
-    justify-content: center;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    width: auto;
-}
-
-h {
-    border: 1px solid #2f3542;
-    width: 95%;
-    
-}
-
 #experience-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2em;
-    height: 20em;
-}
-
-#job1-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    height: 4em;
-}
-
-#job1-description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-}
-
-#date {
-    font-size: 18px;
-    text-decoration: underline;
-}
-
-#experience-tab {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 45em;
 }
 
 @media (max-width: 750px) {
@@ -90,20 +43,6 @@ h {
 
     #bio-div {
         padding-top: 1em;
-        width: 90vw;
-    }
-
-    #date {
-        font-size: 12px;
-    }
-
-    #job1-description {
-        display: flex;
-        flex-direction: column;
-        width: 90vw;
-    }
-
-    #job-skills {
         width: 90vw;
     }
 }
