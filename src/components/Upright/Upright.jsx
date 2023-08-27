@@ -2,7 +2,6 @@ import React from 'react'
 import "./Upright.css"
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-import { useMediaQuery } from '@mui/material';
 import { Typography } from '@mui/material';
 import Box from '@mui/material/Box/Box';
 
