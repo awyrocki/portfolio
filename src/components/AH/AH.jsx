@@ -8,7 +8,7 @@ import Box from '@mui/material/Box/Box';
 function AH() {
   return (
     <>
-      <Box sx={{mt: 1, ml: 1, mr: 1, pb: 2}} borderBottom={'1px solid #2f3542'}>
+      <Box sx={{mt: 1, ml: 1, mr: 1, pb: 2}} textAlign={'center'} maxWidth={750} borderBottom={'1px solid #2f3542'}>
         <div id='ah-date'>
           <Typography color={"#e0e0e0"}>Sep 2021-May2023 | Autumn Harp, Formulation Chemist</Typography>
         </div>

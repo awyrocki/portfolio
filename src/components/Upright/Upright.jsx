@@ -10,7 +10,7 @@ function Upright() {
 
   return (
     <>
-      <Box sx={{mt: 1, ml: 1, mr: 1, pb: 2}} borderBottom={'1px solid #2f3542'}>
+      <Box sx={{mt: 1, ml: 1, mr: 1, pb: 2}} textAlign={'center'} maxWidth={750} borderTop={'1px solid #2f3542'} borderBottom={'1px solid #2f3542'}>
         <div id='upright-date'>
           <Typography color={"#e0e0e0"}>May 2023-Present | Upright Education, Software Developer</Typography>
         </div>

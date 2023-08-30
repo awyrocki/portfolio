@@ -8,7 +8,7 @@ import { Typography } from '@mui/material';
 function RAN() {
   return (
     <>
-      <Box sx={{mt: 1, ml: 1, mr: 1, pb: 2}} borderBottom={'1px solid #2f3542'}>
+      <Box sx={{mt: 1, ml: 1, mr: 1, pb: 2}} textAlign={'center'} maxWidth={750} borderBottom={'1px solid #2f3542'}>
           <div id='ran-date'>
             <Typography color={"#e0e0e0"}>May2021-Sep2021 | RAN Biotechnologies, Chemist</Typography>
           </div>
