@@ -35,8 +35,8 @@ function Nav() {
                 onClick={() => window.open('https://github.com/awyrocki')}
                 ></GitHubIcon>
             </IconButton>
-            <li><a href='http://localhost:3000/Experience'>Experience</a></li>
-            <li><a href='http://localhost:3000/Projects'>Projects</a></li>
+            <li><a href='https://awyrocki.github.io/portfolio/Experience'>Experience</a></li>
+            <li><a href='https://awyrocki.github.io/portfolio/Projects'>Projects</a></li>
         </ul>
     </nav>
     </div>
