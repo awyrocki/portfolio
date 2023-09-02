@@ -15,7 +15,7 @@ function AH() {
         <div id='ah-role'>
           <Typography fontSize={14} textAlign={"justify"} color={"#e0e0e0"}>Utilized customer feedback to develop, refine, troubleshoot and deploy personal care products for market, all while adhering to practical budget and timeline</Typography>
         </div>
-        <Stack sx={{mt: 1, gap: 1}} direction={"row"} flexWrap={"wrap"} justifyContent={"space-evenly"}>
+        <Stack sx={{mt: 1, gap: 0.5}} direction={"row"} flexWrap={"wrap"} justifyContent={"space-evenly"}>
           <Chip color="warning" label="Project Management" variant="outlined" />
           <Chip color="warning" label="Scrum Methodology" variant="outlined" />
           <Chip color="warning" label="Experimental Design" variant="outlined" />

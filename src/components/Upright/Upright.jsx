@@ -15,9 +15,9 @@ function Upright() {
           <Typography color={"#e0e0e0"}>May 2023-Present | Upright Education, Software Developer</Typography>
         </div>
         <div id='upright-role'>
-          <Typography fontSize={14} textAlign={"justify"} color={"#e0e0e0"}>Mutiple projects of varying complexity. Four-week group capstone project developing scalable & responsive application for client. </Typography>
+          <Typography fontSize={14} textAlign={"justify"} color={"#e0e0e0"}>Collaborating with a team of developers in Agile environment to build scalable and responive full stack applications for clients.</Typography>
         </div>
-        <Stack sx={{mt: 1, gap: 1}} direction={"row"} flexWrap={"wrap"} justifyContent={"space-evenly"}>
+        <Stack sx={{mt: 1, gap: 0.5}} direction={"row"} flexWrap={"wrap"} justifyContent={"space-evenly"}>
           <Chip color="warning" label="JavaScript" variant="outlined" />
           <Chip color="warning" label="MongoDB" variant="outlined" />
           <Chip color="warning" label="Mongoose ODM" variant="outlined" />

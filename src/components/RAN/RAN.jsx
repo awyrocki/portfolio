@@ -15,7 +15,7 @@ function RAN() {
           <div id='ran-role'>
             <Typography fontSize={14} textAlign={"justify"} color={"#e0e0e0"}>Lead chemist in charge of manufacturing, researching, and developing fluorosurfactants. Teamed with in-house biologists to enhance functionality and performance. Provided guidance and direction to lab technicians to foster collaborative and productive environment.</Typography>
           </div>
-          <Stack sx={{mt: 1, gap: 1}} direction={"row"} flexWrap={"wrap"} justifyContent={"space-evenly"}>
+          <Stack sx={{mt: 1, gap: 0.5}} direction={"row"} flexWrap={"wrap"} justifyContent={"space-evenly"}>
             <Chip color="warning" label="Problem Solving" variant="outlined" />
             <Chip color="warning" label="Research & Development" variant="outlined" />
           </Stack>
