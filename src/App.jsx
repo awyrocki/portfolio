@@ -11,11 +11,11 @@ import Experience from './components/Experience/Experience'
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/portfolio'>
       <Nav />
       <Routes>
         <Route path='*' element={ <NotFound /> } />
-        <Route path='/portfolio' element={ <About /> } />
+        <Route path='/' element={ <About /> } />
         <Route path='/Experience' element={ <Experience /> } />
         <Route path='/Projects' element={ <Projects /> } />
       </Routes>

@@ -12,7 +12,7 @@ function Nav() {
     <>
     <div id='main-container'>
     <div>
-        <IconButton href='http://localhost:3000'>
+        <IconButton href='https://awyrocki.github.io/portfolio'>
             <FontDownloadIcon
             id='home-icon'
             sx={{color: "#e0e0e0", display:{xs:"none", sm:"block"}}}
