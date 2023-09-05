@@ -10,7 +10,7 @@ function Blog() {
     <>
     <Box sx={{mt: 1, ml: 1, mr: 1, pb: 2}} borderBottom={'1px solid #2f3542'}>
         <Typography color={"#e0e0e0"} sx={{mb: 1}} textAlign={"center"}>Blog</Typography>
-        <Typography color={"#e0e0e0"}>Back-end server utilizing routes and read/write functions. Full CRUD functionality. Utilizes Express framework. Model-view controller architecture. Postman to check routes</Typography>
+        <Typography color={"#e0e0e0"}>Back-end application utilizing routes and read/write functions with full CRUD functionality. Express framework and model-view controller architecture.</Typography>
         <Stack sx={{mt: 1, gap: 0.5}} direction={"row"} flexWrap={"wrap"} justifyContent={"space-evenly"}>
             <Chip color="warning" label="Node.js" variant="outlined" />
             <Chip color="warning" label="Express" variant="outlined" />
